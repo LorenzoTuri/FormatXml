@@ -1,0 +1,23 @@
+{
+    "name": "lturi/format-xml",
+    "description": "Use this tool to bulk format xml documents",
+    "type": "library",
+    "license": "PROPRIETARY",
+    "authors": [
+        {
+            "name": "Lorenzo Turi",
+            "email": "lorenzoturi1994@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/filesystem": "^5.2@dev",
+        "symfony/console": "^5.2@dev",
+        "symfony/finder": "^5.2@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lturi\\FormatXml\\": "src/"
+        }
+    }
+}
