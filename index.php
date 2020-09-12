@@ -4,6 +4,7 @@
 use Lturi\FormatXml\FileManager;
 use Lturi\FormatXml\XmlManager;
 use Symfony\Component\Console\Output\ConsoleOutput;
+use Symfony\Component\Finder\SplFileInfo;
 
 require_once "vendor/autoload.php";
 define("ROOT_PATH", __DIR__.DIRECTORY_SEPARATOR);
